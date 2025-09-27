@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MultiBranchExampleTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android from the new branch!",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
